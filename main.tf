@@ -1,14 +1,14 @@
 #RESOURCE "RESOURCE_TYPE" "RESOURCE_NAME"
 
 resource "aws_s3_bucket" "ta_backend_bucket" {
-  bucket = "ta-terraform-tfstates-163065498600"
+  bucket = "ta-terraform-tfstates-339774688473"
  #Meta-Data additional info for terraform, do not delete
   lifecycle {
       prevent_destroy = true
-    }
+    }          
 
     tags = {
-        Name = "ta-terraform-tfstates-163065498600"
+        Name = "ta-terraform-tfstates-339774688473"
         Environment = "Test"
         Team = "Talent-Academy"
         Owner = "Rashidat"
